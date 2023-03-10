@@ -94,8 +94,9 @@ footer{
 }
 #calculator_section{
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 #lovelace_calculator{
     border-radius: 15px;
-    width: 50%;
+    width: 100%;
 }
