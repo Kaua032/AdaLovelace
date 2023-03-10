@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,800;1,500;1,700;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+main{
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    background: #BD5059;
+    color: #fff;
+    width: 100%;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header div ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: #fff;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a:hover{
+    opacity: 75%;
+}
+section h2{
+    font-weight: 700;
+}
+section #lovelace_home{
+    align-self: center;
+    width: 100%;
+    border-radius: 10px;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section p{
+    text-align: justify;
+}
+
+footer{
+    margin-top: 20px;
+    justify-self: flex-end;
+    background: rgb(54, 54, 54);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 30px 0px;
+}
+#section_biografy{
+    flex-direction: row;
+    gap: 2rem;
+}
+#section_biografy img{
+    border-radius: 15px;
+    width: 50%;
+}
+#conteudo_nas_lavaloce{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#section_mother{
+    flex-direction: row-reverse;
+    gap: 2rem;
+}
+#img_mother{
+    width: 50%;
+    border-radius: 15px;
+}
+#calculator_section{
+    flex-direction: row;
+}
+#lovelace_calculator{
+    border-radius: 15px;
+    width: 50%;
+}
